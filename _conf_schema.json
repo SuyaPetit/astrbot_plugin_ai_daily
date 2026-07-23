@@ -1,34 +1,34 @@
 {
   "enabled_sources": {
-    "description": "启用的新闻来源列表",
+    "description": "启用的新闻来源列表（大陆来源推荐直接使用，国际来源需要良好网络）",
     "type": "list",
-    "hint": "可选值: hacker_news, arxiv_ai, the_verge_ai, mit_tech_review, venturebeat_ai, openai_blog, google_ai_blog, hugging_face_blog, sspai, 36kr_ai",
+    "hint": "🇨🇳大陆来源: qbitai, jiqizhixin, 36kr_ai, huxiu, ifanr, geekpark, infoq_cn, solidot, sspai | 🌐国际来源: hacker_news, arxiv_ai, the_verge_ai, venturebeat_ai, openai_blog, hugging_face_blog, mit_tech_review",
     "default": [
-      "hacker_news",
-      "arxiv_ai",
-      "the_verge_ai",
-      "openai_blog",
-      "hugging_face_blog",
-      "venturebeat_ai",
-      "36kr_ai"
+      "qbitai",
+      "jiqizhixin",
+      "36kr_ai",
+      "huxiu",
+      "ifanr",
+      "geekpark",
+      "infoq_cn"
     ]
   },
   "items_per_source": {
     "description": "每个来源显示的新闻条数",
     "type": "int",
-    "hint": "建议 2-5 条，过多可能导致图片过高",
+    "hint": "建议 2-5 条",
     "default": 3
   },
   "render_image": {
-    "description": "是否将日报渲染为图片（基于 html_render）",
+    "description": "是否将日报渲染为精美图片",
     "type": "bool",
-    "hint": "开启后日报以精美图片形式发送，关闭则为纯文字",
+    "hint": "开启后以暗色卡片图片发送，关闭则为纯文字",
     "default": true
   },
   "ai_summary": {
     "description": "是否在日报开头附上 AI 智能摘要",
     "type": "bool",
-    "hint": "需要 AstrBot 已配置可用的 LLM 提供商，否则摘要将为空",
+    "hint": "需要 AstrBot 已配置可用的 LLM 提供商",
     "default": false
   }
 }

@@ -1,7 +1,7 @@
 name: astrbot_plugin_ai_daily
-desc: AI 日报插件 v2，聚合 Hacker News、ArXiv、The Verge、OpenAI Blog、Hugging Face、VentureBeat、36氪 等 10+ 来源 AI 资讯，支持精美图片渲染、KV 持久化缓存、AI 智能摘要、LLM Tool 注册。
+desc: AI 日报插件 v2.1，默认使用大陆可访问的 AI 资讯来源（量子位、机器之心、36氪、虎嗅、爱范儿、极客公园、InfoQ 等），支持精美图片渲染、KV 持久化缓存、AI 智能摘要、LLM Tool 注册。
 author: AI-Assisted
-version: 2.0.0
+version: 2.1.0
 display_name: AI 日报
-short_desc: 多源 AI 资讯聚合日报，图片渲染 + AI 摘要 + 智能缓存
+short_desc: 多源AI资讯聚合（大陆优先），图片渲染+AI摘要+KV缓存
 astrbot_version: ">=4.9.2"
